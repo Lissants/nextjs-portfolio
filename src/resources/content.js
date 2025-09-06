@@ -64,8 +64,8 @@ const home = {
   },
   subline: (
     <>
-      Salut! Chris Here, a recent Applied Computing graduate from <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>
-      <br /> and Information Systems graduate from <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>
+      Salut! Chris Here, a recent Applied Computing graduate from The University of Arizona
+      <br /> and Information Systems graduate from Sampoerna University.
       <br /> I aim to learn more about Full-Stack Development and Cybersecurity!.
     </>
   ),
