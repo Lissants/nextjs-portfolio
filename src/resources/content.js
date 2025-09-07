@@ -6,7 +6,7 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role1: "Full-Stack Developer",
+  role: "Full-Stack Developer",
   role2: "Cybersecurity Enthusiast",
   avatar: "/images/avatar.jpg",
   email: "christopher.lissants@gmail.com",
@@ -55,7 +55,7 @@ const home = {
   image: "/images/og/home.jpg",
   label: "Home",
   title: `${person.name}'s Portfolio`,
-  description: `Portfolio website showcasing my work as a ${person.role1}`,
+  description: `Portfolio website showcasing my work as a ${person.role}`,
   headline: <>Delivering Brilliant Ideas to Your Fingertips</>,
   featured: {
     display: true,
@@ -75,7 +75,7 @@ const about = {
   path: "/about",
   label: "About",
   title: `About – ${person.name}`,
-  description: `Meet ${person.name}, ${person.role1} from ${person.location}`,
+  description: `Meet ${person.name}, ${person.role} from ${person.location}`,
   tableOfContent: {
     display: true,
     subItems: false,
